@@ -1,0 +1,158 @@
+@media only screen and (max-width: 428px) {
+    .container {
+        width: 428px;
+        max-width: 80%;
+        margin: 0 auto !important;
+    }
+    
+    .burger_menu{
+        display: block;
+    }
+
+    
+    .burger_menu:focus + .menu.active{
+        right: 0;
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    } 
+
+
+    .menu {
+        display: none;
+    }
+
+    .promo h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44px;
+        max-width: 300px;
+    }
+
+    .promo_btn {
+        margin-top: 20px;
+    }
+
+    .promo {
+        width: 428px;
+        height: 573px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .link_more {
+        display: none;
+    }
+
+    .tours_item {
+        width: 380px;
+        height: 540px;
+
+
+    }
+
+    .tours_item:nth-child(2) {
+        display: none;
+    }
+
+    .tours_item:nth-child(3) {
+        display: none;
+    }
+
+    .about {
+        width: 428px;
+        height: 573px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto !important;
+    }
+
+    .about_content {
+        width: 380px;
+        height: 386px;
+        padding: 43px;
+        margin-left: -20px;
+    }
+
+    .title:nth-child(1) {
+        font-weight: 700;
+        font-size: 29px;
+
+        color: #0499DD;
+    }
+
+    p {
+        margin-top: -20px;
+        gap: 10px;
+    }
+
+    .grid {
+        max-width: 428px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-left: -20px;
+    }
+
+    .item_text {
+        width: 285px;
+        height: 144px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+
+    .text_name {
+        padding-top: 10px;
+    }
+
+    .item_text p {
+        margin-top: 10px;
+    }
+
+    .end_txt {
+        width: 380px;
+        height: 48px;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: -20px;
+
+    }
+
+    .m1 {
+        display: none !important;
+    }
+
+    .m2 {
+        display: none !important;
+    }
+
+    .item5 {
+        width: 428px;
+        margin-left: 10px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .center-bot {
+        display: none;
+    }
+}
